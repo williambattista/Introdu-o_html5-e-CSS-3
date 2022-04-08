@@ -1,0 +1,61 @@
+
+
+body {
+    background: #f7f7f7;
+    font-family:  Verdana;
+    /*width: 900px; /*largura para o body*/
+    max-width: 900px; /*a largra máxima do body, é interessante quando a tela for menor*/
+    margin: auto; /*cria um espaçamento automatico para alinhar o conteúdo ao centro*/
+}
+.photo {
+    border-radius: 50%; /*deixa a foto em uma area circular*/
+    border: solid #505050;
+}
+
+#title, .subtitle, .post_title {
+    color: #505050
+    
+}
+#title {
+    font-size: 40px;
+    text-transform: uppercase; /*deixa em caixa alta*/
+    color: #505050;
+}
+a {
+    text-decoration: line-through; /*coloca uma linha ao centro*/
+    color: #505050;
+}
+.post_title {
+    font-size: 16px; /* tamanho do elemento*/   
+    font-style: italic; /*estilo da fonte*/
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.post {
+    background: #fff;
+    padding: 15px; /*espaçamento entre a borda e o conteúdo*/
+    border:2px solid #505050;
+    margin-bottom: 15px; /*magem*/
+    border-radius: 5px; /*arrendondar as bordas*/
+}
+.post_content {
+    margin: 0;
+    margin-bottom: 15px;
+    text-transform: capitalize; /*coloca a primeira letra em caixa alta*/
+    text-align: justify; /*alinha o texto*/
+}
+.post_image {
+    margin-bottom: 15px; /* adicionei 15px abaixo da imagem*/
+    width: 100%; /*largura que respeita os limites do body*/
+}
+.contact_list {
+    list-style-type: none; /*remove os itens*/
+    padding-left: 15px;
+
+}
+.contact_list li a { /* vemos aqui que o item <li> e a âncora <a> estão dentro de <lu>
+    então podemos estilizar dessa forma apenas essas partes*/
+    text-decoration: none; /*retira a formatação anterior*/
+    
+}
